@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin pannel</title> 
+    <link rel="stylesheet" href="admin-pannel.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet"> 
+</head>
+<body> 
+    <div class = "main-page" style="height: 100%; width: 100vw;"> 
+        <div class="left-bar">  
+            <h2 style="text-align: center; margin: 1em;  padding-top: 0.5em;">Admin</h2> 
+            <ul class="admin-pannel"> 
+                <li id="go-to-statistics">Statistics</li> 
+                <li id="go-to-personal-cabinet">Users</li> 
+                <li>Catalogue</li> 
+                <li>Finance</li> 
+                <li>Events</li> 
+            </ul>
+
+        </div> 
+
+        <div class="right-bar"> 
+            <div class = "upper">  
+                <h1 style = "font-size: 3em; margin-bottom: 0;" id="go-to-main-page"> Jewelry </h1> 
+            </div> 
+
+            <div class="lower"> 
+                <div class="upper-block"> 
+                    <div class="block" id="1"> 
+                        <div class="block-image" id="block-image-1">
+                            <img src="/Users/Anastasiya/Desktop/Web-technologies/images/bar-chart.png">
+                        </div>
+                        <h2 class="block-title" id="block-title-1">Jewelry sold per year: <br><br> 18758 items</h2> 
+                    </div> 
+                    <div class="block" id="2"> 
+                        <div class="block-image" id="block-image-2">
+                            <img src="/Users/Anastasiya/Desktop/Web-technologies/images/pie-chart.png">
+                        </div>
+                        <h2 class="block-title" id="block-title-2">Customets: <br><br> Males - 28% <br> Females - 72%</h2>
+                    </div>
+                </div> 
+
+                <div class="lower-block"> 
+                    <div class="block" id="3"> 
+                        <div class="block-image" id="block-image-3">
+                            <img src="/Users/Anastasiya/Desktop/Web-technologies/images/country.png">
+                        </div>
+                        <h2 class="block-title" id="block-title-3">Top countries: <br><br>Switzerland, Kazakhstan, USA</h2>
+                    </div>
+                    <div class="block" id="4"> 
+                        <div class="block-image" id="block-image-4">
+                            <img src="/Users/Anastasiya/Desktop/Web-technologies/images/age.png">
+                        </div>
+                        <h2 class="block-title" id="block-title-4">Average age: <br><br>25-62 y.o.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html> 
+<script src = "admin-pannel.js"></script>

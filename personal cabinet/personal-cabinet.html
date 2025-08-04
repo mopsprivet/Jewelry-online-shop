@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title> 
+    <link rel="stylesheet" href="personal-cabinet.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet"> 
+</head> 
+
+<body> 
+    <div class = "main-page"> 
+        <div class = "upper">  
+            <a href="/Users/Anastasiya/Desktop/Web-technologies/Project /main page/main_project.html" id = "main-page">
+                <h1 style = "font-size: 3em; margin-bottom: 0;"> Jewelry </h1> 
+                <h5 style="font-size: 1.2em; margin-top: -10px;"> online </h5> 
+            </a>
+        </div> 
+
+        <div class = "lower"> 
+            <div class="lower-left-bar"> 
+                <div class="profile"> 
+                    <img src="/Users/Anastasiya/Desktop/Web-technologies/images/profile-image-project.png" 
+                    style="height: 7em; width: 7em; margin: 10px;"> 
+                    <h1>Anastasiya Sitchenko</h1> 
+                    <h3>87083712423</h3>
+                    <h3>sitchenko.aa@gmail.com</h3> 
+                </div>
+
+            </div> 
+
+            <div class="lower-right-bar">
+                <div class="info" style="width: 100%;"> 
+                    <h1 style="margin: 10px; padding: 7px;">Cart</h1> 
+                    <ul>
+                        <li> 
+                            <div id="1"> 
+                                <div class="three-blocks"> 
+                                    <div class="cart-image">
+                                        <img src="/Users/Anastasiya/Desktop/Web-technologies/images/ring1.png">
+                                    </div>
+
+                                    <div class="cart"> 
+                                        <h2>Figlia dei Fiori</h2>
+                                        <p id="price1">13130$</p>
+                                    </div> 
+    
+                                    <div class="add-remove"> 
+                                        <div class="minus-plus">
+                                            <div class = "remove" id="remove1">
+                                                <img src="/Users/Anastasiya/Desktop/Web-technologies/images/minus.png" 
+                                                style="height: 1.85em; width: 1.8em; margin: 14px; margin-bottom: 0;">  
+                                            </div>
+                                            <div class = "add" id="add1">
+                                                <img src="/Users/Anastasiya/Desktop/Web-technologies/images/add.png" 
+                                                style="height: 2em; width: 2em; margin: 14px; margin-bottom: 0;">  
+                                            </div>
+                                        </div>
+                                        <h4 style="margin: 0; margin-top: 5px;" id = "quantity1">1</h4>
+                                    </div> 
+                                </div>
+                            </div> 
+                        </li> 
+
+                        <li>
+                            <div id="2"> 
+                                <div class="three-blocks"> 
+                                    <div class="cart-image">
+                                        <img src="/Users/Anastasiya/Desktop/Web-technologies/images/n2.png">
+                                    </div>
+
+                                    <div class="cart"> 
+                                        <h2>Calla Midi</h2>
+                                        <p id="price2">3850$</p>
+                                    </div> 
+    
+                                    <div class="add-remove"> 
+                                        <div class="minus-plus">
+                                            <div class = "remove" id="remove2">
+                                                <img src="/Users/Anastasiya/Desktop/Web-technologies/images/minus.png" 
+                                                style="height: 1.85em; width: 1.8em; margin: 14px; margin-bottom: 0;">  
+                                            </div>
+                                            <div class = "add" id="add2">
+                                                <img src="/Users/Anastasiya/Desktop/Web-technologies/images/add.png" 
+                                                style="height: 2em; width: 2em; margin: 14px; margin-bottom: 0;">  
+                                            </div>
+                                        </div>
+                                        <h4 style="margin: 0; margin-top: 5px;" id = "quantity2">1</h4>
+                                    </div> 
+                                </div>
+                            </div> 
+                        </li>  
+                        <li>
+                        <div id="3"> 
+                            <div class="three-blocks"> 
+                                <div class="cart-image">
+                                    <img src="/Users/Anastasiya/Desktop/Web-technologies/images/b3.png">
+                                </div>
+
+                                <div class="cart"> 
+                                    <h2>Mon Jeu</h2>
+                                    <p id="price3">4500$</p>
+                                </div> 
+
+                                <div class="add-remove"> 
+                                    <div class="minus-plus">
+                                        <div class = "remove" id="remove3">
+                                            <img src="/Users/Anastasiya/Desktop/Web-technologies/images/minus.png" 
+                                            style="height: 1.85em; width: 1.8em; margin: 14px; margin-bottom: 0;">  
+                                        </div>
+                                        <div class = "add" id="add3">
+                                            <img src="/Users/Anastasiya/Desktop/Web-technologies/images/add.png" 
+                                            style="height: 2em; width: 2em; margin: 14px; margin-bottom: 0;">  
+                                        </div>
+                                    </div>
+                                    <h4 style="margin: 0; margin-top: 5px;" id = "quantity3">1</h4>
+                                </div> 
+                            </div>
+                        </div>                         
+                    </li>
+                    </ul> 
+
+                    <div class="total-price"> 
+                        <h2 style="margin: 7px; padding: 5px;">Total: </h2> 
+                        <h2 style="margin: 7px; padding: 5px;" id="total-price"></h2> 
+                    </div> 
+                    <form action = "/pay" method="get"> 
+                        <input type="submit" value="Pay order" class="button"></input> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="personal-cabinet.js"></script> 
+</html> 

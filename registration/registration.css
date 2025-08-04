@@ -1,0 +1,121 @@
+body {
+    background-color: #eef8f7ed; 
+    font-family:'Josefin Slab', serif; 
+    height: 100%; 
+    width: 100vw; 
+    color: rgb(39, 63, 87); 
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth; 
+} 
+
+a { 
+    color: rgb(39, 63, 87); 
+    text-decoration: none; 
+    outline: none; 
+    transition: 0.2s; 
+}  
+
+a:hover { 
+    color: rgb(79, 127, 148); 
+} 
+
+h1 {
+    font-size: 2.3em; 
+    padding: 10px;
+} 
+
+.main-page { 
+    width: 95vw;
+    height: 85hw; 
+    display: flex; 
+    flex-direction: row; 
+    
+} 
+
+.left-bar {
+    width: 20vw; 
+    height: 100vh;
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 20px; 
+    margin: 30px; 
+}
+
+.right-bar {
+    width: 80vw; 
+    height: 100vh;
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex; 
+    flex-direction: column; 
+    padding: 20px; 
+    margin: 30px;
+}
+
+
+.registration-window {
+    width: 31em; 
+    height: 32em; 
+    background-color:rgba(103, 127, 150, 0.172); 
+    border-radius: 20px;  
+} 
+
+.upper {
+    height: 10%;
+}
+
+.lower { 
+    height: max-content;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: baseline; /* Выравнивать по центру по вертикали */
+    align-items: center; 
+    margin: 0;
+}
+
+form {
+    font-family: 'Courier New'; 
+    font-size: 20px; 
+    text-align: left; 
+    margin: 0;
+} 
+
+label, input  {
+    display: block; 
+    margin-bottom: 0.2em; 
+    
+} 
+
+input {
+    background-color: #f7f5f2; 
+    box-sizing: border-box; 
+    width: 100%;
+    padding: 0.4em 0.5em;
+    margin: 0.2em 0; 
+    border-radius: 4px; 
+    border: 1px rgb(39, 63, 87); 
+
+} 
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(39, 63, 87);
+    border: none;
+    color: #f7f5f2;
+    padding: 0.8em;
+    margin-top: 1em; 
+    font-family: 'Josefin Slab', serif; 
+    font-size: 15px;
+} 
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover { /* Изменение свойств при наведении */ 
+    background-color: rgb(79, 127, 148); 
+    cursor: pointer;
+} 
+

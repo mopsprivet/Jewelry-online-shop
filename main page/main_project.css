@@ -1,0 +1,212 @@
+body {
+    background-color: #eef8f7ed; 
+    font-family:'Josefin Slab', serif; 
+    height: 100%; 
+    width: 100vw; 
+    color: rgb(39, 63, 87); 
+    margin: 0;
+} 
+
+h1 {
+    font-size: 2.3em; 
+} 
+
+
+html{
+    scroll-behavior: smooth; 
+} 
+
+.main-page { 
+    width: 95vw;
+    height: 85hw; 
+} 
+
+.upper { 
+    text-align: center; 
+}
+
+.upper h1 {
+    margin-bottom: 0; 
+}
+
+.upper h5 {
+    margin-top: -10px; 
+} 
+
+.upper-catalogue {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em; 
+    padding-left: 2em; 
+    padding-right: 2em; 
+    align-items: center; 
+    text-align: center; 
+    position: relative;
+}  
+
+.upper-catalogue::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(39, 63, 87);
+    position: absolute;
+    bottom: 0;
+}
+
+.upper-catalogue h2 {
+    padding-left: 1em; 
+    padding-right: 1em;
+}
+
+.upper-catalogue a { 
+    font-size: 23px; 
+    color: rgb(39, 63, 87); 
+    text-decoration: none; 
+    outline: none; 
+    transition: 0.2s; 
+    transition: text-decoration 0.2s; 
+} 
+
+.upper-catalogue a:hover { 
+    color: rgb(79, 127, 148); 
+    text-decoration: underline; 
+    text-decoration-thickness: 1px;
+} 
+
+.lower {
+    width: 100%; 
+    height: max-content; 
+    text-align: center; 
+    position: relative; 
+    text-align: center; 
+    margin: 20px;
+}
+ 
+#rings, #necklaces, #bracelets {
+    padding: 10px;
+    margin: 15px; 
+} 
+
+.rings-list, 
+.necklaces-list, 
+.bracelets-list {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(103, 127, 150, 0.172); 
+    padding: 20px;
+    margin-left: 0; 
+    margin-right: 0; 
+    margin-bottom: 20px;
+    border-radius: 20px; 
+    border-radius: 20px; 
+    overflow: hidden;  
+} 
+
+.ring-block, 
+.necklace-block, 
+.bracelet-block {
+    text-align: center;
+    border: 1px solid rgba(39, 63, 87, 0.279); 
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%; 
+    transition: 0.2s; 
+} 
+
+.ring-block:hover, 
+.necklace-block:hover, 
+.bracelet-block:hover {
+    background-color: rgba(84, 106, 127, 0.157); 
+    cursor: pointer;
+
+} 
+
+.ring-image, .necklace-image, .bracelet-image {
+    text-align: center;
+}
+
+.ring-title, .necklace-title, .bracelet-title {
+    font-weight: bold; 
+}
+
+
+.lower h2 {
+    font-size: 1.3em; 
+} 
+
+.lower img { 
+    width: 130px; 
+    height: 130px;; 
+    border-radius: 50%; 
+    margin: 15px;  
+} 
+
+.order { 
+    width: 1em;
+    height: 1em;
+    margin: 11px;
+    background-image: url(/Users/Anastasiya/Desktop/Web-technologies/images/project-order.png);
+    background-repeat: no-repeat;
+    transition: 0.1s;
+    padding: 10px;  
+} 
+
+.like {
+    width: 1em;
+    height: 1em;
+    margin: 11px;
+    background-image: url(/Users/Anastasiya/Desktop/Web-technologies/images/icons8-сердце-24.png);
+    background-repeat: no-repeat;
+    transition: 0.1s;
+    padding: 10px; 
+    
+
+} 
+
+.order-like {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+ 
+.order:hover {
+    background-image: url(/Users/Anastasiya/Desktop/Web-technologies/images/project-order-hover.png); 
+    cursor: pointer;
+} 
+
+.like:hover {
+    background-image: url(/Users/Anastasiya/Desktop/Web-technologies/images/hover.png); 
+    cursor: pointer;
+} 
+
+p { 
+    font-family:'Josefin Slab', serif; 
+    font-size: 1.15em; 
+    margin-top: 0;
+} 
+
+footer { 
+    width: 100vw;
+    height: max-content;
+    background-color: rgba(84, 106, 127, 0.667); 
+    color: #eef8f7ed; 
+    font-style: italic; 
+    margin-top: 3em;
+} 
+
+.footer-main { 
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-main h2 { 
+    font-size: 19px;
+    font-weight: normal; 
+    margin: 0 auto; 
+    max-width: 60%; 
+    margin-top: 20px
+     
+}

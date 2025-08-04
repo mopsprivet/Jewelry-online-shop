@@ -1,0 +1,105 @@
+body {
+    background-color: #eef8f7ed; 
+    font-family:'Josefin Slab', serif; 
+    height: 100%; 
+    width: 100%; 
+    margin: 0;
+} 
+
+html{
+    scroll-behavior: smooth; 
+} 
+
+
+h1 {
+    font-size: 2.3em; 
+} 
+
+
+.main-page {
+    display: flex; 
+    flex-direction: row;
+}
+
+.left-bar { 
+    color: #eef8f7ed; 
+    width: 25%; 
+    height: 100vh; 
+    background-color: rgba(42, 69, 97, 0.869); 
+    margin: 0;
+}
+
+
+.right-bar {
+    color: rgb(39, 63, 87); 
+    width: 85%; 
+    height: 100vh; 
+    margin: 0; 
+    font-weight: bold;
+    text-align: center; 
+} 
+
+.admin-pannel {
+    padding: 0.5em; 
+    margin: 0.3em; 
+    font-size: 1.3em; 
+    list-style: none; 
+    position: relative; 
+    justify-content: top; 
+} 
+
+.admin-pannel li {
+    margin-bottom: 0.5em; 
+    transition: 0.2s; 
+    transition: text-decoration 0.2s;
+} 
+
+.admin-pannel li:hover {
+    color: #eef8f7ae;  
+    text-decoration: underline 1px; 
+    cursor: pointer;
+} 
+
+.upper {
+    justify-content: center; 
+    margin: 10px 1em 1em 1em;
+} 
+
+.upper h1:hover {
+    color: rgb(79, 127, 148); 
+    cursor: pointer; 
+}
+
+.lower { 
+    height: 100vh; 
+    width: 100%; 
+    justify-content: center; 
+} 
+
+.block { 
+   width: 30%;
+   padding: 7px; 
+   margin: 10px;
+   height: max-content; 
+   justify-content: center; 
+   align-items: center; 
+   text-align: center; 
+   position: relative;
+} 
+
+.upper-block, .lower-block { 
+    width: 100%; 
+    margin: 10px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    position: relative;
+} 
+
+
+img {
+    height: 6.5em; 
+    width: 6.5em; 
+    margin: 5px;
+
+}

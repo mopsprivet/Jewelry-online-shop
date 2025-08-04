@@ -1,0 +1,201 @@
+body {
+    background-color: #eef8f7ed; 
+    font-family:'Josefin Slab', serif; 
+    height: 100%; 
+    width: 100vw; 
+    color: rgb(39, 63, 87); 
+    margin: 0;
+} 
+
+html{
+    scroll-behavior: smooth; 
+} 
+
+
+h1 {
+    font-size: 2.3em; 
+} 
+
+
+.main-page { 
+    width: 95vw;
+    height: 85vh; 
+} 
+
+.main-page a {  
+    color: rgb(39, 63, 87); 
+    text-decoration: none; 
+    outline: none; 
+    font-weight: bold;
+    text-align: center; 
+    transition: 0.2s; 
+    transition: text-decoration 0.2s;
+} 
+
+.upper h1:hover { 
+    color: rgb(79, 127, 148); 
+} 
+
+.lower {
+    width: 100%; 
+    height: max-content; 
+    display: flex; 
+    flex-direction: row; 
+}
+
+.lower-left-bar { 
+    width: 30%; 
+    height: 100vh;
+    margin-left: 30px;  
+} 
+
+.lower-right-bar { 
+    width: 70%; 
+    height: 100vh;
+    margin-right: 10px;
+} 
+
+.profile {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.profile h1 {
+    font-size: 1.6em; 
+    margin-top: 0;
+} 
+
+.profile h3 {
+    font-size: 1.3em; 
+    margin: 3px;
+}
+
+
+.profile ul {
+    margin: 0; 
+    padding: 0;
+}
+ 
+.profile, .info {  
+    height: 100%;
+    background-color:rgba(103, 127, 150, 0.172); 
+    padding: 20px;
+    margin-left: 0; 
+    margin-right: 30px; 
+    margin-bottom: 20px;
+    border-radius: 20px; 
+    overflow: scroll; /* обрезать содержимое, выходящее за пределы */ 
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+    position: relative; 
+    justify-content: top; 
+    align-items: center; 
+} 
+
+.info ul { 
+    width: 95%;
+    padding: 10px;
+    margin-left: 15px; 
+    margin-right: 15px; 
+    text-align: left; 
+} 
+
+.info li { 
+    width: 100%;
+    padding: 10px 20px; 
+    margin-left: 0; 
+    margin-right: 30px; 
+    margin-bottom: 20px;
+    border-radius: 20px; 
+    transition: 0.2s;  
+    list-style: none;  
+} 
+
+.info li:hover { 
+    background-color: rgba(84, 106, 127, 0.157); 
+}
+
+.three-blocks {
+    width: 100%; 
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: row; 
+    position: relative; 
+    align-items: center; 
+
+}
+
+.cart {
+    width: 50%; 
+}  
+
+.cart h2 {
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
+    margin-top: 10px;
+} 
+
+.cart p { 
+    font-size: 1.2em; 
+    margin-top: 0;
+} 
+
+.cart-image img { 
+    width: 110px; 
+    height: 110px;; 
+    border-radius: 50%; 
+    margin: 15px; 
+}
+
+.add-remove {
+    text-align: center; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+}
+
+.minus-plus { 
+    display: flex; 
+    flex-direction: row;
+    text-align: center; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+} 
+
+.remove img:hover { 
+    content: url(/Users/Anastasiya/Desktop/Web-technologies/images/minus-hover.png);
+    cursor: pointer;
+}
+
+.add img:hover { 
+    content: url(/Users/Anastasiya/Desktop/Web-technologies/images/add-hover.png);
+    cursor: pointer;
+}  
+
+.total-price {
+    display: flex; 
+    flex-direction: row;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: rgb(39, 63, 87);
+    border: none; 
+    border-radius: 7px;
+    color: #f7f5f2;
+    padding: 0.8em;
+    margin-top: 0; 
+    font-family: 'Josefin Slab', serif; 
+    font-size: 1.2em;
+} 
+
+input[type=submit]:hover { 
+    background-color: rgb(79, 127, 148); 
+    cursor: pointer;
+} 
